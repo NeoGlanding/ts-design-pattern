@@ -55,7 +55,7 @@ var Person = /** @class */ (function () {
 var prototypeMan = new Person("Prototype", 0, Address.generateIndonesianAddress({
     streetName: "Mandor Sanun",
     postalCode: "8585858",
-    city: "Kab. Bogor"
+    city: "Kab. Bogor",
 }));
 var ihsan = prototypeMan.deepCopy();
 ihsan.setName("Ihsan");
@@ -63,7 +63,7 @@ ihsan.setAge(20);
 ihsan.setAddress(Address.generateIndonesianAddress({
     streetName: "Jalan Roti Bakar",
     postalCode: "485858",
-    city: "Depok"
+    city: "Depok",
 }));
 var brian = prototypeMan.deepCopy();
 brian.setName("Brian");
@@ -71,7 +71,7 @@ brian.setAge(14);
 brian.setAddress(Address.generateSingaporeAddres({
     streetName: "Ubi Avenue Rd",
     postalCode: "448585",
-    city: "Singapore"
+    city: "Singapore",
 }));
 console.log(ihsan);
 console.log(brian);
