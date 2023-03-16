@@ -94,3 +94,7 @@ const framingTeam = new FramingTeam("Framing");
 excavationTeam.setNext(foundationTeam).setNext(framingTeam);
 
 excavationTeam.handleIssue("foundationing");
+
+// In the Chain of Responsibility pattern, a broker chain is a variant in which the chain is dynamic, meaning that the handlers are not fixed and can be added or removed at runtime. In this variant, there is a central broker or manager that is responsible for maintaining the chain of handlers and passing requests to them.
+
+// An analogy for the broker chain in the construction team example could be a project manager who is responsible for managing the different teams and tasks involved in the construction project. The project manager is the broker, who adds and removes teams from the chain as needed and passes issues or requests to the appropriate team.
